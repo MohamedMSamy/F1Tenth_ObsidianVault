@@ -115,7 +115,11 @@ Using `tmux`, have 2 panels and run:
 source /opt/ros/foxy/setup.bash && source install/local_setup.bash
 ```
 	
+run this inside of `sim_ws` (Only if you changed settings such as map path):
 ```
+colcon build	
+```
+	
 ros2 launch f1tenth_gym_ros gym_bridge_launch.py
 ```
 and
@@ -123,5 +127,4 @@ and
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
 on the other panel.
-
 
