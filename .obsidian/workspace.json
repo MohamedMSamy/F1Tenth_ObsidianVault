@@ -11,14 +11,14 @@
             "id": "ad270e0718fad059",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Troubleshooting.md",
-                "bFile": "Troubleshooting.md",
-                "aRef": ""
+                "file": "Troubleshooting.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: Troubleshooting"
+              "icon": "lucide-file",
+              "title": "Troubleshooting"
             }
           }
         ]
