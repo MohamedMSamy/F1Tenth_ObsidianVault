@@ -122,10 +122,6 @@ and
 ```
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
-<<<<<<< HEAD
 on the other panel.
 
 
-=======
-on the other panel.
->>>>>>> origin/main
