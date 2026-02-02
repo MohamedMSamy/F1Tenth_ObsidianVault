@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "13d22cea7f2ed4a8",
+        "id": "ec65bf66f08f1d1f",
         "type": "tabs",
         "children": [
           {
-            "id": "93de239b57a721f6",
+            "id": "352e4e39044b56f6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "FTG.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "FTG"
             }
           }
         ]
@@ -194,7 +194,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "42706e81464838c7",
+  "active": "352e4e39044b56f6",
   "lastOpenFiles": [
     "Troubleshooting.md",
     "conflict-files-obsidian-git.md",
