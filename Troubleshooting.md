@@ -129,3 +129,47 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
 on the other panel.
 
+<<<<<<< HEAD
+=======
+# Installing VSCode inside of the container
+
+You should not install VS Code _inside_ the Linux terminal. Instead, follow these steps:
+
+1. **Download & Install on Windows:** Go to the [official VS Code site](https://code.visualstudio.com/) and run the Windows `.exe` installer.
+    
+2. **Add to PATH:** During installation, ensure **"Add to PATH"** is checked.
+    
+3. **Install the WSL Extension:** Open VS Code on Windows, go to the Extensions view (`Ctrl+Shift+X`), and search for **"WSL"** (by Microsoft). Install it.
+    
+4. **Open from Terminal:** Now, go back to your terminal (image 1) and type:
+    
+    ```
+    code .
+    ```
+    
+    VS Code will open on your Windows desktop but will be "remotely" connected to your files in `/sim_ws/src`.
+
+## Enable VS Code in WSL
+
+Since you already have VS Code open on Windows (as seen in the background of your image), follow these steps to make the terminal recognize it:
+
+1. **In Windows VS Code:** Press `Ctrl + Shift + X` to open the **Extensions** view.
+    
+2. **Search & Install:** Find the extension named **"WSL"** by Microsoft and install it.
+    
+3. **Check Path:** In Windows, search for "Environment Variables" in the Start menu. Ensure that the path to your VS Code installation (usually `C:\Users\YourName\AppData\Local\Programs\Microsoft VS Code\bin`) is in your system **Path**.
+    
+4. **Restart the Terminal:** Completely close your WSL terminal (the black window) and open it again.
+
+You need to move that path into the existing `Path` variable rather than having it as its own separate variable.
+
+1. In the **Environment Variables** window (from your image), look at the **System variables** section.
+    
+2. Find the variable named **Path** (not the one you created) and click **Edit**.
+    
+3. Click **New** and paste the path from your screenshot: `C:\Users\moham\AppData\Local\Programs\Microsoft VS Code\bin`
+    
+4. **Important:** Make sure the path ends in `\bin`. The `bin` folder contains the actual `code` command script that WSL looks for.
+    
+5. Click **OK** on all windows to save.
+>>>>>>> origin/main
