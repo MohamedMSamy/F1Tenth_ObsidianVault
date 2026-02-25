@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lab 4 -- FTG.md",
+                "file": "Welcome.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lab 4 -- FTG"
+              "title": "Welcome"
             }
           }
         ],
@@ -211,8 +211,8 @@
   },
   "active": "edbca45bd28f9498",
   "lastOpenFiles": [
-    "Assets/Tests.png",
     "Lab 4 -- FTG.md",
+    "Assets/Tests.png",
     "Welcome.md",
     "Pure Pursuit (pp.py).md",
     "Assets/Tests.png.png",
