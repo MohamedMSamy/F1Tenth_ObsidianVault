@@ -15,7 +15,7 @@
               "state": {
                 "file": "Welcome.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "Welcome"
@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
+                "file": "Troubleshooting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Welcome"
+              "title": "Troubleshooting"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -209,11 +208,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "edbca45bd28f9498",
+  "active": "de1093e4f12b424b",
   "lastOpenFiles": [
+    "Troubleshooting.md",
+    "Welcome.md",
     "Lab 4 -- FTG.md",
     "Assets/Tests.png",
-    "Welcome.md",
     "Pure Pursuit (pp.py).md",
     "Assets/Tests.png.png",
     "Assets/levine_blocked.png",
@@ -223,7 +223,6 @@
     "Assets/levine_obs.png",
     "Assets/levine.png",
     "Assets",
-    "Troubleshooting.md",
     "Trailing Controller.md",
     "ForzaETH.md",
     "().md",
