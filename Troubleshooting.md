@@ -107,7 +107,7 @@ To open the container, run:
 rocker --nvidia --x11 --volume .:/sim_ws/src/f1tenth_gym_ros -- f1tenth_gym_ros 
 ```
 MUST BE IN THE Cloned Repo Folder of `f1tenth_gym_ros`
-# Launching the Simulation (Inside the container)
+	# Launching the Simulation (Inside the container)
 
 Using `tmux`, have 2 panels and run:
 	
@@ -129,7 +129,13 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
 on the other panel.
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Installing VSCode inside of the container
+=======
 # Installing VSCode in Linux Terminal
+>>>>>>> origin/main
 
 You should not install VS Code _inside_ the Linux terminal. Instead, follow these steps:
 
@@ -170,3 +176,4 @@ You need to move that path into the existing `Path` variable rather than having 
 4. **Important:** Make sure the path ends in `\bin`. The `bin` folder contains the actual `code` command script that WSL looks for.
     
 5. Click **OK** on all windows to save.
+>>>>>>> origin/main
