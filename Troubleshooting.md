@@ -1,4 +1,4 @@
-# Resetting Ubuntu
+	# Resetting Ubuntu
 
 ```
 If you prefer staying in a terminal (PowerShell or Command Prompt), you can "unregister" the distribution. This is instantaneous.
@@ -104,7 +104,7 @@ using the rocker steps ***only*** , NOT native, only following  >> With an NVIDI
 
 To open the container, run:
 ```
-rocker --nvidia --x11 --volume .:/sim_ws/src/f1tenth_gym_ros -- f1tenth_gym_ros
+rocker --nvidia --x11 --volume .:/sim_ws/src/f1tenth_gym_ros -- f1tenth_gym_ros 
 ```
 MUST BE IN THE Cloned Repo Folder of `f1tenth_gym_ros`
 	# Launching the Simulation (Inside the container)
@@ -130,8 +130,12 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard
 on the other panel.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Installing VSCode inside of the container
+=======
+# Installing VSCode in Linux Terminal
+>>>>>>> origin/main
 
 You should not install VS Code _inside_ the Linux terminal. Instead, follow these steps:
 
@@ -167,7 +171,7 @@ You need to move that path into the existing `Path` variable rather than having 
     
 2. Find the variable named **Path** (not the one you created) and click **Edit**.
     
-3. Click **New** and paste the path from your screenshot: `C:\Users\moham\AppData\Local\Programs\Microsoft VS Code\bin`
+3. Click **New** and paste the path from your screenshot: `C:\Users\YourName\AppData\Local\Programs\Microsoft VS Code\bin`
     
 4. **Important:** Make sure the path ends in `\bin`. The `bin` folder contains the actual `code` command script that WSL looks for.
     

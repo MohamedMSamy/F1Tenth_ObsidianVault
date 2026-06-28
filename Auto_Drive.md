@@ -167,3 +167,4 @@ docker stop autodrive_roboracer_api
 - `-force-glcore` flag — this build has no OpenGL fallback compiled in; always segfaults/fails.
 - `ppa:kisak/kisak-mesa` (the "fresh" PPA) — dropped Jammy (22.04) support; use `ppa:kisak/turtle` instead.
 - Forgetting to enable **"Enable host networking"** in Docker Desktop — without it, `--network=host` containers are invisible to the WSL2 host's `localhost`, which is exactly why the simulator showed "Disconnected" even though everything else was correctly configured.
+
