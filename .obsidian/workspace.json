@@ -8,35 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "352e4e39044b56f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FTG.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "FTG"
-            }
-          },
-          {
-            "id": "bcdf56911029cb3c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Trailing Controller.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Trailing Controller"
-            }
-          },
-          {
-            "id": "6f66ef24c04a3f1b",
+            "id": "9dfa89a967c4e0c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -50,119 +22,21 @@
             }
           },
           {
-            "id": "657c88ddf10cab86",
+            "id": "39ff37e64394bd7b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
+                "file": "Auto_Drive.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Welcome"
-            }
-          },
-          {
-            "id": "bfe0b77807b3c2ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Welcome.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Welcome"
-            }
-          },
-          {
-            "id": "7963d230d106b221",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Welcome.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Welcome"
-            }
-          },
-          {
-            "id": "7b293421e4b7fe2a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Welcome.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Welcome"
-            }
-          },
-          {
-            "id": "54c46d98882e968c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Welcome.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Welcome"
-            }
-          },
-          {
-            "id": "9420e5a3b648ac77",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Welcome.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Welcome"
-            }
-          },
-          {
-            "id": "d6df32de7a20fcef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Welcome.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Welcome"
-            }
-          },
-          {
-            "id": "cacd155984193b50",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "Auto_Drive"
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -335,16 +209,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cacd155984193b50",
+  "active": "39ff37e64394bd7b",
   "lastOpenFiles": [
-    "Welcome.md",
     "conflict-files-obsidian-git.md",
-    "Troubleshooting.md",
     "FTG.md",
-    "ROS2.md",
-    "Trailing Controller.md",
+    "Troubleshooting.md",
+    "Auto_Drive.md",
+    "Welcome.md",
     "Pure Pursuit (pp.py).md",
     "Controller Manager.md",
+    "Machine Learning/Course 1.md",
+    "Trailing Controller.md",
+    "Machine Learning",
+    "ROS2.md",
     "calc_speed_command.md",
     "test.md",
     "Untitled.base",
