@@ -76,7 +76,7 @@ self.track_width = rospy.get_param('/state_machine/track_width', 2.0)
 Preprocess the LiDAR scan array.
 
   
-
+ 
         This method performs preprocessing on the LiDAR scan array. The preprocessing steps include:
 
         1. Setting each value to the mean over a specified window.
